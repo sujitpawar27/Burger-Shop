@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header style="padding-top: 1px;padding-bottom: 1px;">
+        <h1>Your Cart</h1>
+    </header>
+    <div style="margin-top: 5px;">
+    <button class="goToCheckout" onclick="goToCheckout()" style="margin-left: 1104px;">Proceed to Checkout</button>
+        <button id="clearCartBtn">Clear Cart</button>
+        <button class="goToHome" onclick="goToHome()">Go back to Home</button>
+    </div>
+    <main>
+        <div class="cart-items" id="cartItemsContainer">
+            <!-- Your cart items will be dynamically added here -->
+            <div class="cart-item">
+                <div class="product-details">
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+    <footer>
+        © 2023 Burger Shop. All rights reserved.
+      </footer>
+    </footer>
+    <script type="module" src="cart.js"></script>
+    <script>
+        function goToHome() {
+            window.location.href = 'index.html';
+        }
+        function goToCheckout() {
+            window.location.href = 'checkout.html';
+        }
+    </script>
+</body>
+</html>

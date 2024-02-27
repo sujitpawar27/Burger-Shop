@@ -1,0 +1,193 @@
+@media screen and (max-width: 600px) {
+    /* Add your responsive styles here */
+    .search input[type="text"] {
+        width: 150px; /* Adjusted width for smaller screens */
+    }
+    .filters select {
+        width: 120px; /* Adjusted width for smaller screens */
+    }
+}
+
+@media screen and (min-width: 708px) {
+    /* Add styles for screens wider than or equal to 708px */
+    .filter {
+        margin-left: 708px;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(237, 237, 241);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 8px; /* Adjusted padding */
+    border: 1px solid rgb(201, 198, 198); /* Set the border color to white */
+    border-radius: 5px;
+    font-size: 16px; /* Adjusted font size */
+    width: 200px; /* Adjusted width */
+    margin-left: 20px; /* Add some left margin for spacing */
+}
+/* .filters select {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 180px;
+  
+}
+
+.filters label {
+    font-size: 16px;
+    
+    padding-left: 10px;
+    
+} */
+
+.filter label {
+    font-size: 16px;
+}
+
+.filter select {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 180px; /* Decreased width */
+}
+
+.filter label,
+.filter input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+
+.cart button {
+    padding: 10px 20px;
+    background-color: rgb(16, 170, 10);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.cart button:hover {
+    background-color: #45a049;
+}
+/* Additional styles for the cart icon */
+.cart button i {
+    margin-right: 8px;
+    /* Adjust the spacing between icon and text */
+}
+
+/* CSS Styling */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 17px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    /* Set a fixed height for the image */
+    object-fit: cover;
+    /* Ensure the image covers the entire space */
+    border-radius: 8px;
+    /* To round corners of the image */
+}
+
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.card label {
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+.card select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.card-container button {
+    padding: 8px 12px;
+    border: 2px solid rgb(16, 170, 10); /* Green border */
+    background-color: white; /* White background */
+    color: rgb(16, 170, 10); /* Green font color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Added color transition */
+}
+
+footer {
+    background-color: rgb(189, 53, 53);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+.top-navbar {
+    background-color:  rgb(189, 53, 53);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 125px;
+}
+
+.navbar-logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}

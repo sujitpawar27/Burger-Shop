@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    background-color:rgb(189, 53, 53);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cart-items {
+    padding: 1rem;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details {
+    flex: 2;
+}
+
+.product-details p {
+    margin: 0; /* Remove default margin */
+}
+
+.product-price {
+    flex: 1;
+    text-align: right;
+    font-weight: bold; /* Make the price more prominent */
+}
+
+footer {
+    background-color: rgb(189, 53, 53);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+ /* button {
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+ button:hover {
+    background-color: #45a049;
+} */
+element.style {
+    margin-left: 1104px;
+}
+button {
+    margin-left: 10px; /* Add margin between buttons for better spacing */
+    padding: 10px 15px; /* Adjust padding for better button appearance */
+    font-size: 16px; /* Adjust font size for better readability */
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+.cart-item img {
+    width: 20%;
+    height: 125px;
+    /* Set a fixed height for the image */
+    object-fit: cover;
+    /* Ensure the image covers the entire space */
+    border-radius: 8px;
+    /* To round corners of the image */
+}

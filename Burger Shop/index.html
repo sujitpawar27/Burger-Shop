@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>King Burger</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="icon" type="image/x-icon" href="images/favicon.svg"> -->
+
+
+</head>
+<body >
+
+    <div class="top-navbar">
+        <div class="navbar-logo">
+            <h1 style="color: white;">King Burger</h1>
+        </div>
+        <div class="navbar-links">
+            <a href="#">Login/Signup</a>
+            <a href="#">Location</a>
+        </div>
+    </div>
+
+    <header>
+        <div class="search">
+            <input type="text" id="search" placeholder="Search...">
+        </div>
+        <div class="filter" style="color: black;">
+            <label for="veg"><input type="checkbox" id="veg"> Veg</label>
+            <label for="nonveg"><input type="checkbox" id="nonveg"> Non-Veg</label>
+            <b1><label for="filter">Filter :</label></b1>
+            <select id="filter">
+                <option value="All">All</option>
+                <option value="Burger">Burger</option>
+                <option value="Fries">Fries</option>
+                <option value="Meal">Meals</option>
+                <option value="Drink">Drinks</option>
+                <!-- Add more options based on your categories -->
+            </select>
+        </div>
+        <div class="cart">
+            <button>
+                <i class="fas fa-shopping-cart"></i> Cart
+            </button>
+        </div>
+        
+    </header>
+    <main id="productsContainer" class="products"></main>
+
+
+
+    <div id="card-container" class="card-container">
+
+    </div>
+
+    <footer>
+        © 2023 Burger Shop. All rights reserved.
+      </footer>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
